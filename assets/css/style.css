@@ -1,0 +1,58 @@
+body{
+	background-image: url("../images/cool_blue.jpg")
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 50%;
+}
+div{
+	border: solid 2px white;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+div.header, div.gems{
+	background-color: white;
+}
+div.header, div.instructions{
+	width:50%;
+}
+p{
+	font-style: italic;
+    color: crimson;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.numberToMatch, .winsAndLosses, .userTotal{
+	float: left;
+	width: 14.4%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+	padding-left: 50px;
+}
+.gemImage:hover{
+	transform: rotate(-4deg) scale(1.1, 1.1);
+}
+
+#finalTotal, #randomNumber, #numberWins, #numberLosses{
+	font-size: 2em;
+}
+@media (prefers-reduced-motion) {
+	.animated {
+	  -webkit-animation: unset !important;
+	  animation: unset !important;
+	  -webkit-transition: none !important;
+	  transition: none !important;
+	}
+}
