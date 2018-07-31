@@ -1,9 +1,5 @@
 # unit-4-game
 
-## File
-
-* [`index.html`](unit-4-game/index.html)
-
 ## Instructions
 
 * The computer will generate a random number at the start of the game.
